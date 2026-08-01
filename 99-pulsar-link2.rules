@@ -1,0 +1,2 @@
+# Pulsar LINK 2 dongle — allow the logged-in user to query battery status
+KERNEL=="hidraw*", ATTRS{idVendor}=="3710", ATTRS{idProduct}=="5504", TAG+="uaccess"
