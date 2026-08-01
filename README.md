@@ -80,6 +80,11 @@ the module hides itself entirely when the dongle is unplugged.
   but closing the tab helps if you see `󰍽 ?`.
 - Polling once a minute has no measurable effect on the mouse's battery.
 
+## Credits
+
+The HID protocol details come from Nikolas Koesling's proposed
+[`hid-pulsar` kernel driver](https://ratatoskr.run/linux-input/2026/04/3494264).
+
 ## License
 
 [MIT](LICENSE)
